@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "alltheores:platinum_dust_from_hammer_crushing"
+        "recipe": "alltheores:aluminum_dust_from_hammer_crushing_manual_only"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "alltheores:platinum_dust_from_hammer_crushing"
+      "alltheores:aluminum_dust_from_hammer_crushing_manual_only"
     ]
   },
   "sends_telemetry_event": false

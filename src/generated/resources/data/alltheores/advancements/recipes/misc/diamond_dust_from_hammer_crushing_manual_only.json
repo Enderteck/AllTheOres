@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "alltheores:sapphire_dust_from_hammer_crushing"
+        "recipe": "alltheores:diamond_dust_from_hammer_crushing_manual_only"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "alltheores:sapphire_dust_from_hammer_crushing"
+      "alltheores:diamond_dust_from_hammer_crushing_manual_only"
     ]
   },
   "sends_telemetry_event": false

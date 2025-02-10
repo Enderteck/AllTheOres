@@ -632,21 +632,21 @@ public class CraftingRecipes extends RecipeProvider {
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RUBY_ORE_ITEM)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("ruby","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("ruby","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.SAPPHIRE.get(),3)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.SAPPHIRE_ORE_ITEM)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("sapphire","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("sapphire","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.PERIDOT.get(),3)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.PERIDOT_ORE_ITEM)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("peridot","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("peridot","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.RUBY.get(),9)
@@ -740,126 +740,126 @@ public class CraftingRecipes extends RecipeProvider {
                 .requires(Items.NETHERITE_INGOT)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("netherite_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("netherite_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.DIAMOND_DUST.get(),1)
                 .requires(Items.DIAMOND)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("diamond_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("diamond_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.RUBY_DUST.get(),1)
                 .requires(BlockList.RUBY.get())
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("ruby_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("ruby_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.PERIDOT_DUST.get(),1)
                 .requires(BlockList.PERIDOT.get())
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("peridot_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("peridot_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.SAPPHIRE_DUST.get(),1)
                 .requires(BlockList.SAPPHIRE.get())
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("sapphire_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("sapphire_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.ALUMINUM_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RAW_ALUMINUM)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("aluminum_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("aluminum_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.COPPER_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(Items.RAW_COPPER)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("copper_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("copper_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.LEAD_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RAW_LEAD)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("lead_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("lead_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.NICKEL_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RAW_NICKEL)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("nickel_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("nickel_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.IRIDIUM_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RAW_IRIDIUM)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("iridium_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("iridium_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.OSMIUM_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RAW_OSMIUM)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("osmium_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("osmium_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.PLATINUM_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RAW_PLATINUM)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("platinum_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("platinum_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.SILVER_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RAW_SILVER)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("silver_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("silver_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.TIN_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RAW_TIN)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("tin_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("tin_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.URANIUM_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RAW_URANIUM)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("uranium_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("uranium_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.ZINC_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(ItemTagRegistry.RAW_ZINC)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("zinc_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("zinc_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.IRON_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(Items.RAW_IRON)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("iron_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("iron_dust","hammer_crushing_manual_only"));
 
         ShapelessRecipeBuilder
                 .shapeless(RecipeCategory.MISC,BlockList.GOLD_DUST.get(),2)
                 .requires(ItemTagRegistry.ORE_HAMMERS)
                 .requires(Items.RAW_GOLD)
                 .unlockedBy(hasCondition,RecipeProvider.inventoryTrigger(ItemPredicate.Builder.item().of(ItemTagRegistry.ORE_HAMMERS).build()))
-                .save(consumer, shapelessRecipeDir("gold_dust","hammer_crushing"));
+                .save(consumer, shapelessRecipeDir("gold_dust","hammer_crushing_manual_only"));
 
         // DUST FROM INGOTS
 
